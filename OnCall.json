@@ -1,0 +1,50 @@
+{
+  "id": "19582075-d9a6-4b81-af86-6b88879e293e",
+  "name": "OnCall",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "697e10f7-59e6-48bc-8511-799e102bd2e9",
+          "required": true,
+          "dataType": "@Team",
+          "name": "Team",
+          "value": "$Team",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What team would you like to know the on call for?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
